@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 60px;
+}
+.partone{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(241, 243, 245);
+}
+.parttwo{
+    width: 100%;
+}
+.partthree{
+    width: 100%;
+    background-color: rgb(241, 243, 245);
+    overflow: auto;
+}
+.partfour{
+    width: 100%;
+    overflow: auto;
+}
+.partfive{
+    width: 100%;
+}
+.partsix{
+    width: 100%;
+    background-color: rgb(184, 197, 208);
+    overflow: auto;
+}
+.partseven{
+    width: 100%;
+    background-color: rgb(143, 156, 163);
+    overflow: auto;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 9%;
+    font-size: 20px;
+}
+nav ul li button{
+    padding: .4%;
+    color: white;
+    background-color: rgb(51, 57, 66);
+}
+.leftone{
+    width: 48%;
+    float: left;
+}
+.rightone{
+    width: 47%;
+    float: left;
+}
+.leftone img{
+    padding-left: 7%;
+}
+.leftone h2{
+    padding-left: 5%;
+}
+.leftone span{
+    padding-left: 5%;
+    display: block;
+}
+.leftone form{
+    padding-top: 1%;
+    padding-left: 5%;
+}
+
+.leftone button{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.rightone img{
+    padding-left: 20%;
+    padding-top: 1.6%;
+}
+.parttwo {
+    text-align: center;
+}
+.parttwo span{
+    font-weight: bold;
+}
+
+.partthree h3{
+    font-size: 30px;
+    padding-left: 1%;
+}
+.leftthree{
+    width: 55%;
+    float: left;
+}
+.rightthree{
+    width: 40%;
+    float: left;
+    padding-left: 9%;
+}
+.partfour h3{
+    text-align: center;
+    font-size: 30px;
+}
+.partfour img{
+    float: left;
+}
+.at{
+    font-size: 20px;
+    font-weight: bold;
+}
+.leftfive{
+    width: 45%;
+    float: left;
+}
+.rightfive{
+    width: 40%;
+    float: left;
+}
+.leftfive h3{
+    font-size: 25px;
+}
+.leftfive p{
+    margin-right: 4%;
+}
+.partsix h5{
+    padding-left: 14%;
+    float: left;
+    font-size: 15px;
+    color: white;
+}
+.las{
+    padding-left: 65%;
+    padding-top: 1%;
+}
+.partsix button{
+    margin-top: 1%;
+    margin-left: 2%;
+    padding: .3%;
+    color: white;
+    background-color: rgb(143, 156, 163);
+}
+.partseven h5{
+    padding-left: 14%;
+}
+.listone li{
+    display: inline;
+    padding-left: 6%;
+    margin-left: 5%;
+    color: white;
+    font-weight: bold;
+
+}
+@media only screen and (max-width: 1207px) {
+    nav ul li button{
+        display: none;
+    }
+}
+/*/ for bigger tablets ipadpro/*/
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 920px){
+    .partsix{
+        display: none;
+    }
+}
+/*/ for smaller tablets ipad/*/
+@media only screen and (max-width: 900px){
+    nav{
+        display: none;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .partfive{
+      display: none;
+    }
+
+}
+@media only screen and (max-width: 733px) {
+    .partthree{
+      display: none;
+    }
+}
+@media only screen and (max-width: 666px) {
+    .partseven{
+      display: none;
+    }
+}
+@media only screen and (max-width: 615px) {
+    .leftone {
+        width: 100%;
+    }
+    .leftone span, .leftone h2, .leftone form {
+        text-align: center;
+    }
+
+    .leftone img{
+        display: block;
+        margin: auto;
+    }
+     .rightone img{
+        display: none;
+    }
+    .partfour h3{
+        padding-top: 4%;
+    }
+}
+/*/ for phones/*/
+@media only screen and (max-width: 500px){
+    .partthree{
+        display: none;
+    }
+    .partfive{
+        display: none;
+    }
+    .partseven{
+        display: none;
+    }
+    .leftone{
+        width: 100%;
+    }
+}
